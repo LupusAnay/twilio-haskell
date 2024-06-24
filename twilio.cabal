@@ -84,7 +84,7 @@ library
                        Twilio.UsageTrigger,
                        Twilio.UsageTriggers
   hs-source-dirs:      src
-  build-depends:       aeson >= 0.11 && <1.6 || >=2.0 && <2.2,
+  build-depends:       aeson >= 0.11 && <1.6 || >=2.0 && <2.3,
                        base ==4.*,
                        binary >=0.7,
                        bytestring ==0.11.*,
