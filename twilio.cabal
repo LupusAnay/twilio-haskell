@@ -84,10 +84,10 @@ library
                        Twilio.UsageTrigger,
                        Twilio.UsageTriggers
   hs-source-dirs:      src
-  build-depends:       aeson >= 0.11 && <1.6 || >=2.0 && <2.2,
+  build-depends:       aeson >= 0.11 && <1.6 || >=2.0 && <2.3,
                        base ==4.*,
                        binary >=0.7,
-                       bytestring ==0.11.*,
+                       bytestring >=0.11 && <0.13,
                        containers ==0.6.*,
                        deepseq >=1,
                        errors >=1,
@@ -102,7 +102,7 @@ library
                        old-locale ==1.0.*,
                        scientific ==0.*,
                        template-haskell >=2,
-                       text ==1.* || ==2.0.*,
+                       text ==1.* || >=2.0 && <2.2,
                        time >=1,
                        transformers >=0.3,
                        unordered-containers ==0.2.*
